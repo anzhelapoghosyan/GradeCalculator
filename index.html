@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+		<div id = "class">
+			<h1>CSE120 Intro to the World of Programming</h1>
+			<h4>Here's the distribution of grades for this class:</h4>
+			Participation - <span class = "gradePercentage" id = "participationGrade"> 10</span>%</br>
+			Quizzes - <span class = "gradePercentage" id = "quizzesGrade"> 20</span>%</br>
+			Project Milestone 1 - <span class = "gradePercentage" id = "PM1Grade"> 20</span>%</br>
+			Project Milestone 2 - <span class = "gradePercentage" id = "PM2Grade"> 20</span>%</br>
+			Final Project - <span class = "gradePercentage" id = "finalProjGrade"> 30</span>%</br>
+		</div id = "class">
+
+		<div id = "grades">
+			<h1>My Grades</h1>
+			<h4>Here are the grades I got for this class:</h4>
+			Participation - <input type = "number" id = "currParticipation"></br>
+			Quizzes - <input type = "number" id = "currQuizzes"></br>
+			Project Milestone 1 - <input type = "number" id = "currProjMilestone1"></br>
+			Project Milestone 2 - <input type = "number" id = "currProjMilestone2"></br>
+			Final Project - <input type = "number" id = "currFinProj"></br>
+		</div id = "grades">
+
+		<div id = "finalGrades">
+			<h1>Final Grade *dun dun dun*</h1>
+			<h4>Click here to find out:</h4>
+			<button onclick="calculateGrade()">Calculate</button>
+		</div id = "finalGrades">
+  </body>
+</html>

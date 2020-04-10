@@ -1,0 +1,18 @@
+h1 {
+	color: rgb(0, 94, 97);
+	font-size: 27px;
+}
+
+body {
+	text-align: center;
+	background-color: rgb(206, 245, 248);
+}
+
+span.gradePercentage,span.currentGrade {
+	font-size: 20px;
+	font-style: bold;
+}
+
+input{
+	width: 40px
+}
